@@ -1,0 +1,9 @@
+/* src/components/Spinner.css */
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  

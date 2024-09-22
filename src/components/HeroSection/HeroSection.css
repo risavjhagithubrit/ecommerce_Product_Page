@@ -1,0 +1,38 @@
+.hero-section {
+    text-align: center;
+    padding: 270px 20px;
+    background: url('https://img.freepik.com/premium-photo/credit-card-shopping-cart-near-laptop-keyboard-yellow-background-online-shopping-concept_657790-30096.jpg?w=1060') no-repeat center center/cover;
+    color: rgb(0, 0, 255);
+
+  }
+
+  .hero-section p {
+    text-size-adjust: 30px; /* Makes paragraph text bold */
+}
+
+.large-header{
+  font-size: 40px;
+}
+
+.description {
+  font-size: 23px; /* Adjust the size as needed */
+}
+
+  
+  .cta-button {
+    padding: 20px 40px;
+    margin-top: 20px;
+    background-color: #1900ff;
+    color: rgb(192, 228, 32);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .cta-button:hover {
+    background-color: #00cc3a; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0 4px 8px rgb(249, 1, 34);
+}
+  

@@ -1,0 +1,45 @@
+/* styles.css */
+.search-container {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #030303;
+    border-radius: 18px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #06f125;
+    border-radius: 4px;
+  }
+  
+  .product-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f50dde;
+    transition: background-color 0.2s;
+  }
+  
+  .product-item:last-child {
+    border-bottom: none;
+  }
+  
+  .product-item:hover {
+    background-color: #d0eb02;
+    cursor: pointer;
+  }
+  

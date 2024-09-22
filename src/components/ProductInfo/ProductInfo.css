@@ -1,0 +1,141 @@
+.product-info {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #111112;
+  border-radius: 8px;
+  background-color: #e0b527;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-name {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-description {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.product-price {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4007fc;
+}
+
+.product-availability {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: green;
+}
+
+.product-variants {
+  margin-bottom: 20px;
+}
+
+.variant-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.variant-button.active {
+  background-color: #0f2df2;
+  color: #fff;
+  border-color: #e91e63;
+}
+
+.variant-button:hover {
+  background-color: #ddd;
+}
+
+.product-reviews {
+  margin-top: 30px;
+}
+
+.product-reviews h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.review {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.review-rating {
+  font-size: 14px;
+  color: #2812f3;
+}
+
+.review strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.review p {
+  margin: 5px 0;
+}
+
+.review-form {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
+.review-form h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.review-form button {
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #300df0;
+}
